@@ -17,7 +17,7 @@ public class CategoryService {
 
     public Category create(CreateCategoryRequest categoryRequest){
 
-         Category category = new Category(0,categoryRequest.getName(),categoryRequest.getStatus());
+         Category category = new Category(0,categoryRequest.getName(),categoryRequest.getStatus(),categoryRequest.getType());
          Category result = categoryRepository.save(category);
 
         return result;

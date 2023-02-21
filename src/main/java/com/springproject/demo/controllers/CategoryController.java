@@ -24,7 +24,7 @@ public class CategoryController {
 
     @PostMapping(name = "/")
     public @ResponseBody ResponseEntity<?> insert(@RequestBody @Valid CreateCategoryRequest input) {
-        Category category=categoryservices.create(input);
+        Category category=categoryservices.create(input);//call function in services
         return new ResponseEntity<>(new BasicResponse("created successfully","000",category), HttpStatus.OK);
     }
 }

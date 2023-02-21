@@ -24,4 +24,7 @@ public class Category {
     private String name;
 
     private String status;
+
+    private String type;
+
 }

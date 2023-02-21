@@ -11,9 +11,11 @@ import lombok.Setter;
 @Setter  @AllArgsConstructor @NoArgsConstructor @Getter
 
 public class CreateCategoryRequest {
-    @Valid
+    
+    @NotNull
+    private String name;
     @NotNull
     private String  status;
     @NotNull
-    private String name;
+    private String type;
 }
