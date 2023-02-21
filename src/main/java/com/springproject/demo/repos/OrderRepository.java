@@ -1,10 +1,10 @@
-package com.nctr.training.repos;
+package com.springproject.demo.repos;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.stereotype.Repository;
 
-import com.nctr.training.models.Order;
+import com.springproject.demo.models.Order;
 
 @Repository
 @EnableJpaRepositories

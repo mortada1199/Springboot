@@ -1,4 +1,5 @@
-package com.nctr.training.services;
+package com.springproject.demo.services;
+
 
 import java.rmi.server.UID;
 import java.sql.SQLException;
@@ -11,15 +12,15 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.nctr.training.models.Item;
-import com.nctr.training.models.Order;
-import com.nctr.training.models.User;
-import com.nctr.training.repos.ItemRepository;
-import com.nctr.training.repos.OrderRepository;
-import com.nctr.training.repos.UserRepository;
-import com.nctr.training.requests.CreateItemRequest;
-import com.nctr.training.requests.CreateOrderRequest;
-import com.nctr.training.requests.UserRequest;
+import com.springproject.demo.models.Item;
+import com.springproject.demo.models.Order;
+import com.springproject.demo.models.User;
+import com.springproject.demo.repos.ItemRepository;
+import com.springproject.demo.repos.OrderRepository;
+import com.springproject.demo.repos.UserRepository;
+import com.springproject.demo.request.CreateItemRequest;
+import com.springproject.demo.request.CreateOrderRequest;
+import com.springproject.demo.request.UserRequest;
 
 @Service
 public class OrderService {

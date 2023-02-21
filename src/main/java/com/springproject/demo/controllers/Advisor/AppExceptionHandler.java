@@ -1,4 +1,4 @@
-package com.nctr.training.controllers.Advisor;
+package com.springproject.demo.controllers.Advisor;
 
 import java.sql.SQLException;
 import java.util.HashMap;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.nctr.training.responses.BasicResponse;
+import com.springproject.demo.responce.BasicResponse;
 
 @RestControllerAdvice
 

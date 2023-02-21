@@ -1,4 +1,4 @@
-package com.nctr.training.models;
+package com.springproject.demo.models;
 
 
 public enum OrderStatus {

@@ -1,4 +1,4 @@
-package com.nctr.training.responses;
+package com.springproject.demo.responce;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,11 +1,11 @@
-package com.nctr.training.models;
+package com.springproject.demo.models;
 
 import java.io.Serializable;
 import java.time.ZonedDateTime;
 import java.util.Date;
 import java.util.UUID;
 
-import com.nctr.training.utilities.SecurityUtils;
+import com.springproject.demo.utilities.SecurityUtils;
 
 import jakarta.annotation.PreDestroy;
 import jakarta.persistence.Column;

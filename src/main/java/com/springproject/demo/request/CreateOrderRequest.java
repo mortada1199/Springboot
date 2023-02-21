@@ -1,8 +1,8 @@
-package com.nctr.training.requests;
+package com.springproject.demo.request;
 
 import java.math.BigDecimal;
 
-import com.nctr.training.models.OrderStatus;
+import com.springproject.demo.models.OrderStatus;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Min;
