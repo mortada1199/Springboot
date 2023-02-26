@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.springproject.demo.models.Category;
-import com.springproject.demo.repos.CategoryRepository;
 import com.springproject.demo.request.CreateCategoryRequest;
 import com.springproject.demo.responce.BasicResponse;
 import com.springproject.demo.services.CategoryService;
