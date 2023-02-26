@@ -1,10 +1,11 @@
-package com.nctr.training.services;
+package com.springproject.demo.services;
+
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.nctr.training.models.Role;
-import com.nctr.training.repos.RoleRepository;
+import com.springproject.demo.repos.RoleRepository;
 
 @Service
 public class RoleService {

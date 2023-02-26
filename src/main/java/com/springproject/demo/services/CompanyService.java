@@ -1,17 +1,14 @@
-package com.nctr.training.services;
+package com.springproject.demo.services;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
 
-import com.nctr.training.models.Company;
-import com.nctr.training.repos.CompanyRepository;
-import com.nctr.training.requests.CreateCompanyRequest;
-import com.nctr.training.requests.updateCompanyRequest;
+import com.springproject.demo.models.Company;
+import com.springproject.demo.repos.CompanyRepository;
+import com.springproject.demo.request.CreateCompanyRequest;
 
-import jakarta.websocket.server.PathParam;
 
 @Service
 

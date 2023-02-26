@@ -1,4 +1,4 @@
-package com.nctr.training.requests;
+package com.springproject.demo.request;
 
 
 import jakarta.validation.constraints.NotNull;
